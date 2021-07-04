@@ -1,3 +1,22 @@
+//Operadores logicos
+//
+// --- comparacao ----
+// > Maior
+// >= Maior ou igual
+// < Menor
+// <= Menor ou igual
+// == igual
+// === igual em valor e tipo
+// != Diferente
+// !== Diferenter em valor ou tipo
+//
+// --- varitativo ---
+//
+// && significa E (ex: 2>0 && 1!==1 resultado falso)
+// || singifica OU (ex: 2>0 || 1!==1 resultado verdadeiro)
+// ! significa NAO (ex: !(1===1) resultado falso) 
+// 
+//-------------------------------//
 let estaSol = true;
 
 if(estaSol){
