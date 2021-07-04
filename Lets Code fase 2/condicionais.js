@@ -1,0 +1,46 @@
+let estaSol = true;
+
+if(estaSol){
+    console.log("vou pra praia");
+}
+else{
+    console.log("vou pro campo");
+}
+
+//--------------------------------//
+
+let numero1 = 1;
+
+if(numero1 > 0){
+    console.log("numero positivo");
+}else if(numero1 == 0){
+    console.log("o numero e zero")
+}else{
+    console.log("numero negativo");
+}
+
+//---------------------------------//
+
+let numero = 3;
+let paridade = numero % 2 == 0 ? "par" : "impar"; //% significa resto da divisao
+
+console.log(paridade);
+
+//--------------------------------//
+
+let sinal = "vermelho";
+
+switch(sinal){
+    case "verde":
+        console.log("Pode passar");
+        break;
+    case "amarelo":
+        console.log("Prestes a fechas, cuidado...");
+        break;
+    case "vermelho":
+        console.log("Fechado, nao passe");
+        break;
+    default: //quando a condicao nao for valida, ou nao estipulada usa-se default (sinal roxo por exemplo nao esta estipulado)
+        console.log("Sinal invalido");
+}
+
