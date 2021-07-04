@@ -12,9 +12,9 @@
 //
 // --- varitativo ---
 //
-// && significa E (ex: 2>0 && 1!==1 resultado falso)
-// || singifica OU (ex: 2>0 || 1!==1 resultado verdadeiro)
-// ! significa NAO (ex: !(1===1) resultado falso) 
+// && significa E (ex: 2>0 && 1!==1 resultado falso) - so retorna verdadeiro se as duas condicoes forem verdadeiras
+// || singifica OU (ex: 2>0 || 1!==1 resultado verdadeiro) apenas uma das condicoes deve ser verdadeira para o resultado ser verdadeiro
+// ! significa NAO (ex: !(1===1) resultado falso) inverte o valor logico
 // 
 //-------------------------------//
 let estaSol = true;
