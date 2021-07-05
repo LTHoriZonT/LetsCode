@@ -41,7 +41,7 @@ if(numero1 > 0){
 //---------------------------------//
 
 let numero = 3;
-let paridade = numero % 2 == 0 ? "par" : "impar"; //% significa resto da divisao
+let paridade = numero % 2 === 0 ? "par" : "impar"; //? significa operador ternario (permite fazer um if/else inline) % significa resto da divisao e : signigica o contrario (ele seria o senao)
 
 console.log(paridade);
 
@@ -63,3 +63,17 @@ switch(sinal){
         console.log("Sinal invalido");
 }
 
+// Além do true e do false, o JavaScript aceita outras informações que não são booleanos e os interpreta como se fosse true ou false. 
+//Esses casos chamamos de truthy e falsy. Por exemplo, o JavaScript interpreta os seguintes valores como falso:
+
+//0
+//'' ou ""
+//null
+//undefined
+//NaN
+
+//Todos os demais são interpretados como verdadeiro. Alguns exemplos de truthy:
+
+//[]
+//{}
+//function(){} 
