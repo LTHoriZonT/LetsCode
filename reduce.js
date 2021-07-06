@@ -13,7 +13,7 @@ const matriz = [
 ];
 
 const somaColuma = (estado, item) => {
-    return [estado[0]+item[0]+item[1], estado[1]+item[2]+item[3], estado[2]+item[2]+item[2]]
+    return [estado[0]+item[0]+item[1], estado[1]+item[2]+item[3], estado[2]+item[4]+item[5]] // estados sao a separacao das somas, e itens as colunas
 };
 
 const vetor2 = matriz.reduce(somaColuma, [0,0,0]);
@@ -28,6 +28,6 @@ const rockets = [
     {country: "Japan", launches: 3 },
 ]
 
-const totalLaunches = rockets.reduce( ( valorPrevio, elemento) => valorPrevio + elemento.launches, 0)
+const totalLaunches = rockets.reduce( ( valorPrevio, elemento) => valorPrevio + elemento.launches, 0) // valor previo setado para 0 (0 + 32 + 23 + 16 + 7 + 4 + 3 = 85)
 
 console.log(totalLaunches);
