@@ -14,7 +14,7 @@ console.log(quadrado.getCor()); */
 
 class Quadrado{
     constructor(lado, altura){
-        this._cor = undefined; //como se fosse uma propriedade privada, nao impede o acesso do usuario, mas e uma forma de deixa-lo mais escondido
+        this._cor = undefined; //_cor serve como se fosse uma propriedade privada, nao impede o acesso do usuario, mas e uma forma de deixa-lo mais escondido. Tambem usada _cor para nao conflitar com cor
         this.lado = lado;
         this.altura = altura;
 
@@ -27,3 +27,4 @@ class Quadrado{
 const quadrado = new Quadrado(3, 4);
 quadrado.cor = "red";
 console.log(quadrado.cor);
+
