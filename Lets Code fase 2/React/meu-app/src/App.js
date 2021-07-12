@@ -5,10 +5,10 @@ class App extends React.Component{
     return (
       <>
         <p>
-        Meu Primeiro paragrafo
+        Meu Primeiro paragrafo!
       </p>
       <p>
-        Meu segundo paragrafo
+        Meu segundo paragrafo!
       </p>
       <p>
         {new Date().toLocaleDateString("pt-br")}
