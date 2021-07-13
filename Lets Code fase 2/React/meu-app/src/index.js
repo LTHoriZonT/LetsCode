@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Formulario from './components/Formulario';
+import Hello from './components/componentes-funcionais/Hello';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Formulario>
-    </Formulario>
+    <Hello text='ola'>
+      <h1>Hello</h1>
+    </Hello>
   </React.StrictMode>,
   document.getElementById('root')
 );
