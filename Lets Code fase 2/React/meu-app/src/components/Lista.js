@@ -29,6 +29,7 @@ class Lista extends React.Component{
 }
 
 class Item extends React.Component{
+  // eslint-disable-next-line no-useless-constructor
   constructor(props){
     super(props);
   }
