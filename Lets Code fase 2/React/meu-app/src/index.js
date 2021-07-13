@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './components/componentes-funcionais/Hello';
+import Hello from './components/componentes-funcionais/Hooks';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
