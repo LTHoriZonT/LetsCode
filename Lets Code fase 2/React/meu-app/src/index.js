@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Lista from './components/Lista';
+import {Lista2, Item} from './components/Lista2';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Lista>
-
-    </Lista>
+    <Lista2>
+    <Item key={999} id={999} completo={true}>teste</Item>
+    <Item key={1000} id={1000} completo={false}>teste2</Item>
+    </Lista2>
   </React.StrictMode>,
   document.getElementById('root')
 );
