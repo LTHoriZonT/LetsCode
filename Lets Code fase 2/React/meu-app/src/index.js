@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import App from './components/App';
-import App4 from './components/App4';
+import App5 from './components/App5';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App4 title="Titulo">
+    <App5 title="Titulo">
       Conteudo
-    </App4>
+    </App5>
   </React.StrictMode>,
   document.getElementById('root')
 );
