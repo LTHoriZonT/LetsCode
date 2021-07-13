@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './components/componentes-funcionais/Hooks';
+import App from './components/componentes-funcionais/Hook2';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello text='ola'>
+    <App text='ola'>
       <h1>Hello</h1>
-    </Hello>
+    </App>
   </React.StrictMode>,
   document.getElementById('root')
 );
