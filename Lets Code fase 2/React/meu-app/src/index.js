@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import App from './components/App';
-import App5 from './components/App5';
+import Lista from './components/Lista';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App5 title="Titulo">
-      Conteudo
-    </App5>
+    <Lista>
+
+    </Lista>
   </React.StrictMode>,
   document.getElementById('root')
 );
